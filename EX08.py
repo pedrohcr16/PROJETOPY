@@ -1,4 +1,4 @@
-metros = int(input('Insira um valor: '))
+metros = int(input('Digite um valor: '))
 
 print("O valor inserido em metros é {} metros"
       "\nO valor em centimetros é {} centimetros"
