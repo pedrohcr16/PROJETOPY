@@ -8,4 +8,4 @@ print('Você percorreu com o carro por {} km\n'
       'O valor por dia utilizado é de 60,0 R$\n'
       'Portanto o valor total a pagar pelos dias utilizados é {} R$\n'
       'O total a pagar é de {} R$'
-      .format(km, km*0.15, dia, dia*60, ((km*0.15) + (dia*60))))
+      .format(km, km * 0.15, dia, dia * 60, ((km * 0.15) + (dia * 60))))
