@@ -1,9 +1,7 @@
 from datetime import date
-
 nascimento = int(input('Digite o ano do seu nascimento: '))
 atual = int(date.today().year)
 idade = atual - nascimento
-
 if idade < 18:
     print('Você tem {} anos e está fedendo a leite ainda não chegou a hora de se alistar\n'
           'Faltam {} anos para o alistamento\n'
