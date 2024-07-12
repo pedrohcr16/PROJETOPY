@@ -17,10 +17,9 @@ for linha in range(0, 3):
     somacoluna += matriz[linha][2]
 print(f'A soma dos valores da terceira coluna foi {somacoluna}')
 
-for coluna in range(0,3):
+for coluna in range(0, 3):
     if coluna == 0:
         maior = matriz[1][coluna]
     elif matriz[linha][coluna] > maior:
         maior = matriz[1][coluna]
 print(f'O maior valor encontrado na segunda linha foi o {maior}')
-
